@@ -27,6 +27,11 @@ import csv
 import argparse
 import sys
 import os
+import os import glob
+ os.chdir("/mydir")
+
+
+
 
 
 df = gdp.read_file("private-schools.geojson")
