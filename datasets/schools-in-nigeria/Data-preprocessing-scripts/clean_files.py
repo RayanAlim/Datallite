@@ -34,6 +34,20 @@ import os import glob
 
 
 
+df = read_csv("combined-schools.csv")
+split_geo = df.Geometry.str.strip('POINT (').str.strip(')').str.split(' ')
+df['Latitude'] = split_geo.apply(lambda x: x[0])
+df['Longitude'] = split_geo.apply(lambda x: x[1])
+df.head(2)
+
+
+import pandas as pd
+import geopandas as gdp
+import json
+import csv
+import argparse
+import sys
+import os
 df = gdp.read_file("private-schools.geojson")
 split_geo = df.Geometry.str.strip('POINT (').str.strip(')').str.split(' ')
 df['Latitude'] = split_geo.apply(lambda x: x[0])
