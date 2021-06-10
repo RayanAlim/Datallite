@@ -11,8 +11,11 @@ The stark lack of reliable data in developing countries is a major obstacle to s
 We use the same data sources as the original projects: The World Bank, Google Maps, and Night time lights. 
 
 sect3_plantingw3.csv contains education related indicators (ie. dropout rate, high education level obtained, etc.)
+
 cons_agg_wave3_visit2.csv contains the average education consumption aggregate; the variable is ‘edtexp’
+
 nga_householdgeovars_y3.csv contains the geovariables of households
+
 All three files contain a column ‘hhid’ that is the household identification number so you can cross-reference data across different files. 
 
 
