@@ -7,7 +7,7 @@ In this project, we seek to expand the existing work that has been conducted by 
 The stark lack of reliable data in developing countries is a major obstacle to sustainable development. This data drought should be addressed if we hope to inform policy decisions and help direct humanitarian efforts. The use of satellite data may be a way to do this, as remote satellite imagery is becoming increasingly available and inexpensive.
 
 ## Data
-
+# World Bank 
 We use the same data sources as the original projects: The World Bank, Google Maps, and Night time lights. 
 
 sect3_plantingw3.csv contains education related indicators (ie. dropout rate, high education level obtained, etc.)
@@ -18,5 +18,7 @@ nga_householdgeovars_y3.csv contains the geovariables of households
 
 All three files contain a column ‘hhid’ that is the household identification number so you can cross-reference data across different files. The state data dictionary can be found here (https://microdata.worldbank.org/index.php/catalog/2734/data-dictionary/F41?file_name=sect2_harvestw3) under STATE CODE.
 
+# Schools In Nigeria 
+https://grid3.gov.ng/datasets
 
-
+Complete clean dataset: 
