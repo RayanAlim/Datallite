@@ -1,4 +1,4 @@
-# AI4Good Lab - Project
+# Datallite - AI4Good
 
 In this project, we seek to expand the existing work that has been conducted by [Jean et al](http://sustain.stanford.edu/predicting-poverty) predicting poverty. We use the [pytorch replication](https://github.com/jmather625/predicting-poverty-replication) done by Jatin Mathur. We explore new countries in West Africa and approach the problem from the angle of education, a topic which is intricately linked with global poverty. 
 
