@@ -14,9 +14,9 @@ sect3_plantingw3.csv contains education related indicators (ie. dropout rate, hi
 
 cons_agg_wave3_visit2.csv contains the average education consumption aggregate; the variable is ‘edtexp’
 
-nga_householdgeovars_y3.csv contains the geovariables of households
+nga_householdgeovars_y3.csv contains the geovariables of households as variables 'LAT_DD_MOD' and 'LON_DD_MOD'.
 
-All three files contain a column ‘hhid’ that is the household identification number so you can cross-reference data across different files. The state data dictionary can be found here (https://microdata.worldbank.org/index.php/catalog/2734/data-dictionary/F41?file_name=sect2_harvestw3) under STATE CODE.
+All three files contain a column ‘hhid’ that is the household identification number so you can cross-reference data across different files. The state data dictionary can be found here (https://microdata.worldbank.org/index.php/catalog/2734/data-dictionary/F41?file_name=sect2_harvestw3) under STATE CODE. 
 
 ## Schools In Nigeria 
 https://grid3.gov.ng/datasets
