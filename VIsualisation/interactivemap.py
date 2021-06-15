@@ -12,7 +12,7 @@ df_json = pd.read_json('/Users/alim/Documents/GitHub/Team-4-AI-4-Good-lab/datase
 geo_df_cities = gdp.read_file("/Users/alim/Documents/GitHub/Team-4-AI-4-Good-lab/datasets/nigeria_lga_boundaries.geojson")
 geo_df_states = gdp.read_file('/Users/alim/Documents/GitHub/Team-4-AI-4-Good-lab/datasets/nigeria_state_boundaries.geojson')
 
-fig = px.choropleth_mapbox(df, geojson=geo_df_cities.geometry, locations=geo_df_cities.index, color= geo_df_cities['admin0Pcod'],
+fig = px.choropleth_mapbox(df, geojson=geo_df_states.geometry, locations=geo_df_states.index, color= geo_df_states['admin0Pcod'],
                            mapbox_style="carto-positron",
                            center= {"lat":9.061068, 'lon':7.377189},
                            zoom=6
