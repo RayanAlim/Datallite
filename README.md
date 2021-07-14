@@ -22,3 +22,9 @@ All three files contain a column ‘hhid’ that is the household identification
 https://grid3.gov.ng/datasets
 
 Complete clean dataset: Schools-with-lat-long.csv
+
+# Contact
+## Reach out to learn more
+Contact our team with any inquiries through our email, datallite.ai@gmail.com.
+
+Follow us on Linkedin at https://www.linkedin.com/company/datallite/about/
