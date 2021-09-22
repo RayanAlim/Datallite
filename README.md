@@ -24,6 +24,9 @@ https://grid3.gov.ng/datasets
 Complete clean dataset: Schools-with-lat-long.csv
 
 # Contact
+
+Check out our other repo https://github.com/raphaelletseng/datallite-site, and [site in progress](https://raphaelletseng.github.io/datallite-site/).
+
 ## Reach out to learn more
 Contact our team with any inquiries through our email, datallite.ai@gmail.com.
 
